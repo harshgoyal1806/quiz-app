@@ -1,12 +1,33 @@
-# React + Vite
+# Quiz App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive quiz application built with React and Vite, featuring smooth client-side routing using React Router.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Multiple pages: Home, Quiz, and About
+- Seamless navigation with React Router v6
+- Custom CSS styling for a clean and responsive UI
+- Modular component structure with reusable layout
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- React Router v6
+- Custom CSS
+
+## Overview
+
+This quiz app provides users with an engaging quiz experience. The `Layout` component ensures consistent styling and navigation across pages, while React Router handles the routing logic. The app is built with performance and simplicity in mind, leveraging Vite for fast development and build times.
+
+## Contributing
+
+Contributions are welcome! If you'd like to improve the app or add new features, please feel free to open an issue or submit a pull request. Make sure to follow best practices and write clear commit messages.
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+Enjoy using the Quiz App! 🎉
