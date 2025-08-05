@@ -1,0 +1,31 @@
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #F9FAFB; /* soft background */
+  color: #3A3A3A;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.intro {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.start-btn {
+  padding: 10px 25px;
+  background-color: #89CFF0; /* soft blue */
+  color: #FFFFFF;
+  font-size: 1.1rem;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 8px rgba(137, 207, 240, 0.4);
+}
+
+.start-btn:hover {
+  background-color: #5599CC; /* darker blue on hover */
+  box-shadow: 0 4px 12px rgba(85, 153, 204, 0.5);
+}
